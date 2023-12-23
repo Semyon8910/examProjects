@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script defer src="js/events.js"></script>
+</head>
+<body>
+    <form id="events">
+        <h1>הוספת אירוע</h1><hr/>
+        <input type="text" id="eventName" placeholder="שם האירוע" required/><br/><br/>
+        <input type="number" id="minPrice" placeholder="מחיר מינימום" required/>
+        <input type="number" id="maxPrice" placeholder="מחיר מקסימלי" required/><br/><br/>
+        <select name="eventType" id="eventType">
+            <option value="חתונה">חתונה</option>
+            <option value="בר מיצבה">בר מיצבה</option>
+            <option value="ברית מילה">ברית מילה</option>
+            <option value="יום ניסוין">יום ניסוין</option>
+            <option value="יום הולדת">יום הולדת</option>
+        </select><br/><br/>
+        <input type="url" id="imageUrl" placeholder="תמונה של בעל האירוע"required/>&nbsp;
+        <input type="button" id="uploadImgBtn" value="להוסיף את התמונה"/><br/><br/>
+        תאריך האירוע <input type="date" id="eventDate" required/><br/><br/>
+        <input type="button" value="להוסיף את האירוע" id="addEvent"/>&nbsp;
+        <input type="reset" value="איפוס תופס"/>
+    </form>
+    <div id="table">
+
+    </div>
+</body>
+</html>
