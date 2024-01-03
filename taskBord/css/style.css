@@ -1,0 +1,73 @@
+body {
+    background-image: url(../media/tile.jpg);
+}
+form {
+    background-image: url(../media/formbg.jpg);
+    height: 150px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+input {
+    border: 0;
+    width: 20%;
+    opacity: 0.5;
+}
+.task {
+    position: relative;
+    left: 85px;
+    top: 16px;
+}
+.date {
+    position: relative;
+    left: 85px;
+    top: 24px;
+}
+.time {
+    position: relative;
+    left: 85px;
+    top: 32px;
+}
+.submitBtn {
+    position: relative;
+    left: 85px;
+    top: 43px;
+}
+.resetBtn {
+    position: relative;
+    left: 85px;
+    top: 43px;
+}
+.note {
+    background-image: url(../media/notebg.png);
+    width: 150px;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.taskText {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    top: 40px;
+    left: 10px;
+    overflow-wrap: anywhere;
+    overflow-y: auto;
+}
+.taskDate {
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+.taskTime {
+    position: relative;
+    top:  34px;
+    left: 10px
+}
+
+.closeBtn {
+    position: relative;
+    top: 20px;
+    left: 125px;
+}
