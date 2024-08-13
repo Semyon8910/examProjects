@@ -1,0 +1,22 @@
+.header {
+    background-image: url(/coins/media/Gemini_Generated_Image.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+h1 {
+    text-align: center;
+}
+.switch {
+    position: relative;
+    bottom: 120px;
+    left: 135px;
+}
+.coin {
+    height: 90px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
