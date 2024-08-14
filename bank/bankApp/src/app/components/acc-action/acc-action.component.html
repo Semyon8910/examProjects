@@ -1,0 +1,11 @@
+<mat-card class="action-card">
+    <mat-card-content>
+      <p>Type: {{ action.type }}</p>
+      <p>Amount: {{ action.amount }}</p>
+      <p>Date: {{ action.date }}</p>
+      <div *ngIf="action.type === 'credit'">
+        <p>Interest Rate: {{ action.interestRate }}</p>
+        <p>Number of Payments: {{ action.numberOfPayments }}</p>
+      </div>
+    </mat-card-content>
+  </mat-card>

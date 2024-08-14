@@ -1,0 +1,192 @@
+[{
+  "_id": {
+    "$oid": "66bbcafe426ed484524d0000"
+  },
+  "accountId": {
+    "$oid": "66bbc7fd145bd32ad4f0a269"
+  },
+  "type": "deposit",
+  "amount": 1000,
+  "date": {
+    "$date": "2023-10-05T14:48:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bc93ca8be439c35bd59c28"
+  },
+  "accountId": {
+    "$oid": "66bbc7fd145bd32ad4f0a269"
+  },
+  "type": "credit",
+  "amount": 100000,
+  "date": {
+    "$date": "2023-10-05T14:48:00.000Z"
+  },
+  "interestRate": 10,
+  "numberOfPayments": 100
+},
+{
+  "_id": {
+    "$oid": "66bc9ac18be439c35bd59c48"
+  },
+  "accountId": {
+    "$oid": "66bba7bfbcf02ed1cd18e234"
+  },
+  "type": "credit",
+  "amount": 50000,
+  "date": {
+    "$date": "2024-08-14T00:00:00.000Z"
+  },
+  "interestRate": 9,
+  "numberOfPayments": 120
+},
+{
+  "_id": {
+    "$oid": "66bc9ad08be439c35bd59c4c"
+  },
+  "accountId": {
+    "$oid": "66bba7bfbcf02ed1cd18e234"
+  },
+  "type": "withdrawal",
+  "amount": 10000,
+  "date": {
+    "$date": "2024-08-14T00:00:00.000Z"
+  },
+  "interestRate": 9,
+  "numberOfPayments": 120
+},
+{
+  "_id": {
+    "$oid": "66bc9af48be439c35bd59c54"
+  },
+  "accountId": {
+    "$oid": "66bbc7fd145bd32ad4f0a269"
+  },
+  "type": "withdrawal",
+  "amount": 50000,
+  "date": {
+    "$date": "2024-08-14T00:00:00.000Z"
+  },
+  "interestRate": 9,
+  "numberOfPayments": 120
+},
+{
+  "_id": {
+    "$oid": "66bca7698be439c35bd59c5e"
+  },
+  "accountId": {
+    "$oid": "66bbc803145bd32ad4f0a26b"
+  },
+  "type": "deposit",
+  "amount": 10000,
+  "date": {
+    "$date": "2024-08-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bca77e8be439c35bd59c62"
+  },
+  "accountId": {
+    "$oid": "66bbc803145bd32ad4f0a26b"
+  },
+  "type": "credit",
+  "amount": 10000,
+  "date": {
+    "$date": "2024-08-14T00:00:00.000Z"
+  },
+  "interestRate": 5,
+  "numberOfPayments": 10
+},
+{
+  "_id": {
+    "$oid": "66bca8d58be439c35bd59c70"
+  },
+  "accountId": {
+    "$oid": "66bba7bfbcf02ed1cd18e234"
+  },
+  "type": "withdrawal",
+  "amount": 1000,
+  "date": {
+    "$date": "2024-08-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bca8d98be439c35bd59c74"
+  },
+  "accountId": {
+    "$oid": "66bba7bfbcf02ed1cd18e234"
+  },
+  "type": "withdrawal",
+  "amount": 1000,
+  "date": {
+    "$date": "2024-08-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bca8d98be439c35bd59c78"
+  },
+  "accountId": {
+    "$oid": "66bba7bfbcf02ed1cd18e234"
+  },
+  "type": "withdrawal",
+  "amount": 1000,
+  "date": {
+    "$date": "2024-08-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bca8da8be439c35bd59c7c"
+  },
+  "accountId": {
+    "$oid": "66bba7bfbcf02ed1cd18e234"
+  },
+  "type": "withdrawal",
+  "amount": 1000,
+  "date": {
+    "$date": "2024-08-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bcc2a4a95d54a1c8c4e7cd"
+  },
+  "accountId": {
+    "$oid": "66bbc803145bd32ad4f0a26b"
+  },
+  "type": "withdrawal",
+  "amount": 55555,
+  "date": {
+    "$date": "2024-08-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bcce27c6d431ac6423c8ae"
+  },
+  "accountId": {
+    "$oid": "66bba7bfbcf02ed1cd18e234"
+  },
+  "type": "deposit",
+  "amount": 5000,
+  "date": {
+    "$date": "2024-08-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bccef5c6d431ac6423c8b8"
+  },
+  "accountId": {
+    "$oid": "66bbc803145bd32ad4f0a26b"
+  },
+  "type": "withdrawal",
+  "amount": 100,
+  "date": {
+    "$date": "2024-09-10T00:00:00.000Z"
+  }
+}]
